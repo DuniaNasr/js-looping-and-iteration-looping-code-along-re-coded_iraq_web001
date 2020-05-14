@@ -8,7 +8,7 @@ function writeCards(names,events){
   return greeting;
 }
 
-function countdown(num){
+function countDown(num){
   while (num >= 0){
     console.log(num--);
    
