@@ -1,11 +1,16 @@
-writeCards=(["Ada", "Brendan", "Ali"], "birthday");
-function card(writeCards){
-  for(let i=0;i<writeCards.length;i++){
-    console.log('Thank you,${writeCards[i]} for the wonderful birthday gift!');
+const names = ["Ada", "Brendan", "Ali"];
+const events = ["birthday"];
+function writeCards(names,events){
+ let greeting = []
+  for (let i = 0; i < names.length; i++){
+     greeting.push(`Thank you, ${names[i]}, for the wonderful ${events} gift!`);
   }
-  return card;
+  return greeting;
 }
-function count(countDown){
-  let i=0;
-  while()
+
+function countdown(num){
+  while (num >= 0){
+    console.log(num--);
+      }
+
 }
