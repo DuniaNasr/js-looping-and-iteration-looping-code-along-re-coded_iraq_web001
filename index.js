@@ -1,4 +1,4 @@
-const names = ["Liza", "Kaitlin", "Jan"];
+const names = ["Rim", "Kaitlin", "Jan"];
 const events = ["Birthday"];
 function writeCards(names,events){
  let greeting = []
